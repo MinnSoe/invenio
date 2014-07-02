@@ -44,6 +44,7 @@ class ObjectVersion(object):
     FINAL = 1
     HALTED = 2
     RUNNING = 3
+    ALL = [0, 1, 2, 3]
     MAPPING = {0: "New,", 1: "Done,", 2: "Need action,",
                              3: "In process,"}
 
